@@ -1,0 +1,89 @@
+/*======================================
+        CUSTOM DEN MENU IMAGES
+           MONOCHROME RED THEME
+======================================*/
+
+/* Common Styling */
+
+a[href*="dynasty"] img,
+img[alt="Pack Dynasty"],
+a[href*="overview"] img,
+img[alt="Pack Overview"],
+a[href*="breeding"] img,
+img[alt="Breeding"],
+a[href*="pupsitting"] img,
+img[alt="Pupsitting"],
+a[href*="nesting"] img,
+img[alt="Nesting"],
+a[href*="socializing"] img,
+img[alt="Socializing"] {
+
+    object-fit: cover;
+
+    width: 100%;
+    height: 160px;
+
+    /* Crimson Red Theme Filter */
+
+    filter:
+        sepia(.8)
+        hue-rotate(315deg)
+        saturate(2.5)
+        brightness(.75)
+        contrast(1.25)
+        !important;
+}
+
+
+/* Pack Dynasty */
+
+a[href*="dynasty"] img,
+img[alt="Pack Dynasty"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_0000000096a0722f8e7d14d39bd620c5.png") !important;
+}
+
+
+/* Pack Overview */
+
+a[href*="overview"] img,
+img[alt="Pack Overview"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_000000006c5471f58996a4e6dc901bdb.png") !important;
+}
+
+
+/* Breeding */
+
+a[href*="breeding"] img,
+img[alt="Breeding"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_00000000f42c71f5ae28287f70364b8d.png") !important;
+}
+
+
+/* Pupsitting */
+
+a[href*="pupsitting"] img,
+img[alt="Pupsitting"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_00000000bf7071f5b66bbeb255fa00c7.png") !important;
+}
+
+
+/* Nesting */
+
+a[href*="nesting"] img,
+img[alt="Nesting"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_000000008d98722f9aa2eedc5737a82f.png") !important;
+}
+
+
+/* Socializing */
+
+a[href*="socializing"] img,
+img[alt="Socializing"] {
+
+    content: url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/file_000000005fc471f5bfa61b56ae821426.png") !important;
+}
